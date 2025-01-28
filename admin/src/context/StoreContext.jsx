@@ -4,7 +4,7 @@ export const StoreContext = createContext(null)
 
 const StoreContextProvider = (props) => {
 
-    const backend_url = "http://localhost:4000"
+    const backend_url = "https://evolution-backend-w1pe.onrender.com"
     const [token, setToken] = useState("")
 
 
