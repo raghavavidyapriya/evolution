@@ -1,0 +1,211 @@
+.navbar-custom {
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    top: 0%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    left: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #dfeff3;
+}
+
+.navbar-custom .logo {
+    width: 9rem;
+    height: 30px;
+}
+
+.navbar-custom .navbar-menu {
+    display: flex;
+    list-style: none;
+    color: #0A2F5C;
+}
+
+.navbar-custom .navbar-menu li {
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-custom .navbar-menu li:hover {
+    cursor: pointer;
+    background-color: #a5e1f3;
+    color: #0A2F5C;
+    transition: ease-in-out 0.5s;
+}
+
+.navbar-custom .active {
+    background-color:  #0A2F5C;
+    color: #a5e1f3;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-custom .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.navbar-custom .navbar-right:hover {
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+.navbar-custom .get-in {
+    background-color: transparent;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    color: #0A2F5C;
+    border: #0A2F5C solid 2px;
+    font-size: 1rem;
+}
+
+.navbar-custom .get-in:hover {
+    background-color: #a5e1f3;
+    border: #a5e1f3 solid 2px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+.navbar-custom .navbar-search-icon {
+    position: relative;
+}
+
+
+.navbar-custom .navbar-search-icon  .dot {
+    position: absolute;
+    min-width: 0.75rem;
+    min-height: 0.75rem;
+    background-color: #0A2F5C;
+    border-radius: 0.5rem;
+    top: -0.5rem;
+    right: -0.5rem;
+}
+
+.navbar-custom .navbar-profile {
+    position: relative;
+}
+
+.navbar-custom .navbar .profile-icon:hover,
+.navbar-custom .navbar .basket-icon:hover,
+.navbar-custom .navbar .bag-icon-img:hover,
+.navbar-custom .navbar .logout-icon-img:hover {
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
+    z-index: 1;
+}
+
+.navbar-custom .bag-icon:hover .bag-icon-img,
+.navbar-custom .logout-icon:hover .logout-icon-img {
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
+    z-index: 1;
+}
+
+
+.navbar-custom .navbar-profile-dropdown {
+    position: absolute;
+    display: none;
+    right: 0;
+    z-index: 1;
+    list-style: none;
+}
+
+.navbar-custom  .navbar-profile-dropdown{
+    display:flex;
+    flex-direction: column;
+    background-color: #a5e1f3;
+    color: #0A2F5C;
+    border-radius: 1rem;
+    transition: ease-in-out 5s;
+}
+
+.navbar-custom .home-icon {
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border: #0A2F5C 2px solid;
+}
+
+.navbar-custom .bag-icon {
+    border-left: #0A2F5C 2px solid;
+    border-right: #0A2F5C 2px solid;
+}
+
+.navbar-custom .logout-icon {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border: #0A2F5C 2px solid;
+}
+
+.navbar-custom .navbar-profile-dropdown li{
+    display: flex;
+    padding: 0.75rem 5rem;
+    align-items: center;
+    cursor: pointer;
+    gap: 0.5rem;
+
+}
+
+.navbar-custom .navbar-profile-dropdown li:hover{
+    background-color: #0A2F5C;
+    color: #a5e1f3;
+    transition: ease-in-out 0.5s;    
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .navbar-custom,  .navbar-custom .get-in {
+        font-size: 0.9rem;
+    }
+    .navbar-custom .get-in {
+        background-color: #0A2F5C;
+        color: #a5e1f3;
+    }
+
+    .navbar-custom .navbar-profile-dropdown li{
+        display: flex;
+        padding: 0.5rem 4rem;
+        align-items: center;
+        cursor: pointer;
+        font-size: 1rem;
+        color: #a5e1f3;
+        background-color: #0A2F5C;
+    }
+
+    .navbar-custom .navbar-profile hr {
+        border: none;
+        border-bottom: #a5e1f3 2px solid;
+    }
+    .navbar-custom .bag-icon {
+        border-top: #a5e1f3 2px solid;
+        border-bottom: #a5e1f3 2px solid;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .navbar-menu li{
+        display: none;
+    }
+
+    .navbar-custom .get-in {
+        font-size: 1rem;
+    }
+    .navbar-custom .navbar-profile-dropdown li{
+        padding: 0.5rem 3rem;
+    }
+
+    .home-icon{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 350px) {
+}
+

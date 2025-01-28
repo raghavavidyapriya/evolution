@@ -1,0 +1,45 @@
+.navbar {
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    top: 0%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    left: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: #dfeff3;
+}
+
+.navbar .logo {
+    height: 30px;
+}
+
+.navbar .profile {
+    width: 40px;
+    border-radius: 50%;
+    border: #0A2F5C solid;
+}
+
+.navbar .profile:hover,
+.navbar .logout-icon-img:hover {
+    transition: ease-in-out 0.5s;
+    transform: scale(1.05);
+}
+
+.navbar .navbar-right{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.navbar .navbar-right .logout-icon-img{
+    width: 40px;
+}
+

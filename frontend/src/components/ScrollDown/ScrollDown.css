@@ -1,0 +1,39 @@
+.home__scroll {
+    text-align: center;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+
+.home__scroll-button {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.wheel {
+    animation: scroll 2s ease infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(4rem);
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+    .home__scroll{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 350px) {
+}

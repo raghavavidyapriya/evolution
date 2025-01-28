@@ -1,0 +1,22 @@
+.verify {
+    margin-top: 5rem;
+    min-height: 20rem;
+    display: grid;
+    max-height: auto;
+}
+
+.verify .spinner {
+    width: 7rem;
+    height: 7rem;
+    place-self: center;
+    border: 5px solid #a5e1f3;;
+    border-top-color: #0A2F5C;
+    border-radius: 50%;
+    animation: rotate 2s infinite;
+}
+
+@keyframes rotate{
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,74 @@
+.add {
+    color: #0A2F5C;
+    font-size: 1rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add form{
+    gap: 1rem;
+    width: 50%;
+}
+
+.add input::placeholder, textarea::placeholder {
+    color: #0A2F5C; 
+    opacity: 0.5;   
+}
+
+.add-img-upload img{
+    width: 8rem;
+    border: #0A2F5C 2px solid;
+    border-radius: 1rem;
+}
+
+.add-product-name input,
+.add-product-desc textarea,
+.add-price input,
+.add-category select{
+    border: none;
+    background-color: #a5e1f3;
+    color: #0A2F5C;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    width: 100%;
+    border-bottom: #0A2F5C 2px solid;
+}
+
+.flex-col .add-button{
+    outline: none;
+    border: 2px solid #0A2F5C;
+    background-color: #dfeff3;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: #0A2F5C;
+}
+
+
+.flex-col .add-button:hover {
+    background-color: #0A2F5C;
+    color: #a5e1f3;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+} 
+
+@media screen and (max-width: 768px) {
+    .flex-col .add-button{
+        background-color: #0A2F5C;
+        color: #a5e1f3;
+    }
+
+    .add form{
+        gap: 1rem;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 576px) {
+}

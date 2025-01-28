@@ -1,0 +1,55 @@
+.sidebar {
+    font-size: 1rem;
+    width: 100%;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    margin-top: 4.5rem; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #dfeff3;
+    z-index: 10;
+}
+
+.sidebar-options{
+    width: 90%;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid #0A2F5C;
+    border-bottom: 2px solid #0A2F5C;
+    padding-top: 0.5rem;
+    color: #0A2F5C;
+    padding-bottom: 0.5rem;
+}
+
+.sidebar-option{
+    display: flex;
+    align-items: center;
+    background-color: #a5e1f3;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    gap: 0.5rem;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; 
+}
+
+.sidebar-option:hover {
+    cursor: pointer;
+    background-color: #0A2F5C;
+    color: #a5e1f3;
+}
+
+.sidebar-option.active {
+    background-color: #0A2F5C;
+    color: #a5e1f3;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar-option p {
+        display: none; 
+    }
+}
+
+@media screen and (max-width: 576px) {
+}

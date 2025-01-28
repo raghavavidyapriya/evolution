@@ -1,0 +1,127 @@
+.explore_cars {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.explore_cars h2 {
+    font-weight: 700;
+    color: #0A2F5C;
+    text-align: center;
+}
+
+.explore_cars_list {
+    color: #0A2F5C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    overflow-x: scroll;
+    padding-top: 1rem;
+    gap: 2rem;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+
+.explore_cars::-webkit-scrollbar {
+    display: none;
+}
+
+.explore_cars_list_item p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.explore_cars_list_item:hover {
+    transition: ease-in-out .5s;
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+.explore_cars_list_item img{
+    width: 8rem;
+    height: 8rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: ease-in-out .5s;
+}
+
+.explore_cars_list_item img.nonactive{
+    border:  #a5e1f3 0.5rem solid;
+}
+
+.explore_cars_list_item img.active{
+    border: #0A2F5C 0.5rem solid;
+    padding: 0px;
+}
+
+.explore_cars_list_item img:hover{
+    border: #0A2F5C  0.5rem solid;
+    padding: 0px;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+
+.explore_cars hr {
+    height: 2px;
+    background-color: #0A2F5C;
+    color: #0A2F5C;
+    border: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .explore_cars {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .explore_cars_list {
+        gap: 1.5rem;
+    }
+
+    .explore_cars_list_item img{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .explore_cars_list_item p {
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    .explore_cars_list_item img.nonactive{
+    border:  #a5e1f3 0.4rem solid;
+    }
+
+    .explore_cars_list_item img.active{
+        border: #0A2F5C 0.4rem solid;
+        padding: 0px;
+    }
+
+    .explore_cars_list_item img:hover{
+        border: #0A2F5C  0.4rem solid;
+        padding: 0px;
+        cursor: pointer;
+        transition: ease-in-out 0.5s;
+    }
+}
+
+@media screen and (max-width: 350px) {
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+.cars-display {
+    margin-top: 5rem;
+}
+
+.cars-display h2{
+    font-weight: 700;
+    color: #0A2F5C;
+    text-align: center;
+}
+
+.cars-display-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    margin-top: 3rem;
+    gap: 1rem;
+    row-gap: 2.5rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .cars-display {
+    margin-top: 4rem;
+    }
+
+    .cars-display-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+        row-gap: 2rem;
+    }
+    .cars-display-list {
+        margin-top: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cars-display-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+        row-gap: 1.5rem;
+    }
+    .cars-display-list {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+}
+
+
+
+

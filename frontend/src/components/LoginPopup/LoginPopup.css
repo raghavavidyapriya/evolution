@@ -1,0 +1,115 @@
+.login-popup {
+    position:fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background: #00000090;
+    top: 0%;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+}
+
+.login-popup-container {
+    place-self: center;
+    width: max(23vw, 400px);
+    color: #0A2F5C;
+    background-color: #dfeff3;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    animation: fadeIn 0.5s;
+}
+
+.login-popup-title {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+    color: #0A2F5C;
+}
+
+.login-popup-title img{
+    width: 2rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.login-popup-title img:hover{
+    background-color: #0A2F5C;
+    transition: ease-in-out 0.5s;
+}
+
+.login-popup-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.login-popup-inputs input ,
+.login-popup-container button{
+    outline: none;
+    border: 2px solid #0A2F5C;
+    background-color: #a5e1f3;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: #0A2F5C;
+}
+
+.login-popup-inputs input{
+    background-color: #a5e1f3;
+}
+
+.login-popup-container button:hover {
+    background-color: #0A2F5C;
+    color: #a5e1f3;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+.login-popup-condition{
+    display: flex;
+    align-items: start;
+    gap: 0.25rem;
+}
+
+.login-popup-condition input{
+    margin-top: 0.1rem;
+}
+
+.login-popup-inputs input::placeholder{
+    color: #0A2F5C;
+    opacity: 0.5;
+}
+
+hr {
+    background-color: #0A2F5C;
+    border: none;
+    height: 1px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .login-popup-container {
+        width: 350px;
+        gap: 1.5rem;
+        place-self:center;
+    }
+
+    .login-popup-container button {
+        background-color: #0A2F5C;
+        color: #a5e1f3;
+    }
+}
+
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 350px) {
+}
+

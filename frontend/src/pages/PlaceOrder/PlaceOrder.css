@@ -1,0 +1,92 @@
+.place-order {
+    border-top: #0A2F5C 2px solid;
+    padding-top: 1rem;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    color:#0A2F5C;
+    gap: 10rem;
+}
+
+.place-order-left .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0A2F5C;
+    margin-bottom: 1.5rem;
+}
+
+.place-order-right .cart-total-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.place-order-right, 
+.place-order-left{
+    color: #0A2F5C;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.place-order-left input{
+    margin-top: 0.5rem;
+    border: none;
+    background-color: #a5e1f3;
+    color: #0A2F5C;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    width: 100%;
+    border-bottom: #0A2F5C 2px solid;
+}
+input::placeholder {
+    color: #0A2F5C; 
+    opacity: 0.5;   
+}
+
+
+.place-order-left .multi-fields{
+    display: flex;
+    gap: 1rem;
+}
+
+.placeorder-card-number{
+    color: #0A2F5C;
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .place-order {
+        color: #0A2F5C;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .place-order-right .place-order-button{
+        color: #a5e1f3;
+        background-color: #0A2F5C;
+    }
+
+    .place-order-left .title{
+        margin-bottom: 0.5rem;
+    }
+
+    .place-order-right .cart-total-title{
+        margin-bottom: 0rem;
+    }
+
+    .place-order-right .cart-total{
+        gap: 0.5rem
+    }
+
+    .place-order-right .place-order-button{
+        margin-top: 0.5rem
+    }
+
+}

@@ -1,0 +1,108 @@
+.my-orders {
+    margin: 5rem auto;
+    padding-top: 1rem;
+    border-top: #0A2F5C 2px solid;
+    min-height: 20rem;
+    max-height: auto;
+}
+
+.my-orders hr {
+    border: none;
+    border-bottom: #0A2F5C 2px solid;
+}
+
+.my-orders .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.myorder-items-title {
+    display: flex;
+    color: #0A2F5C;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.my-orders-order {
+    display: grid;
+    flex-direction: row;
+    margin-top: 0.5rem;
+    color: #0A2F5C;
+    background-color: #a5e1f3;
+    border-bottom: #0A2F5C 2px solid;
+    align-items: center;
+    padding: 0.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.my-orders-order .top-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.my-orders-order img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.my-orders-order .details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    min-height: 2rem;
+    max-height: auto;
+}
+
+.my-orders-order div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.my-orders-order button {
+    cursor: pointer;
+    background: #0A2F5C;
+    color: #a5e1f3;
+    padding: 0.5rem 0.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: #0A2F5C;
+}
+
+.my-orders-order:hover {
+    background-color: #0A2F5C;
+    color: #a5e1f3;
+    transition: ease-in-out 0.5s;
+    border-bottom: #a5e1f3 2px solid;
+}
+
+.my-orders-order:hover button {
+    background: #a5e1f3;
+    color: #0A2F5C;
+    transition: ease-in-out 0.5s;
+}
+
+.my-orders-order .bottom-section {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    width: 100%;
+}
+
+.my-orders-order .bottom-section p{
+    padding: 0.5rem 0.5rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .my-orders-order .top-section {
+        gap: 0.5rem;
+    }
+}

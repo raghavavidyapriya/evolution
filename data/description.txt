@@ -1,0 +1,40 @@
+
+Charger
+	1.	Level 1 Charger: Basic EV charger offering slow but reliable charging for daily needs.
+	2.	Smart Charger: Advanced EV charger with app integration, optimizing charging efficiency and monitoring usage.
+	3.	Charging Cord: Durable, long-lasting cord ensuring seamless connection and consistent charging performance.
+
+Eco Products
+	1.	Solar Panel: Compact, portable solar panel providing renewable energy for eco-conscious electric vehicle charging.
+	2.	Windshield Washer: Eco-friendly formula designed to deliver spotless, streak-free windshield cleaning every time.
+	3.	Eco Gel: Biodegradable gel for effective cleaning while being gentle on the environment.
+
+Exterior
+	1.	Headlights: Energy-efficient, bright headlights enhancing visibility and safety during nighttime or poor weather conditions.
+	2.	Side Mirror: Stylish, durable side mirrors offering clear reflection and adjustable angles for convenience.
+	3.	Wing Spoiler: Sleek, aerodynamic spoiler designed to improve vehicle performance and fuel efficiency.
+
+Interior
+	1.	Refreshener Gel: Long-lasting fragrance gel keeping your car fresh and odor-free for extended periods.
+	2.	Seat Covers: Stylish, durable seat covers providing added comfort, protection, and a personalized touch.
+	3.	Floor Mats: Heavy-duty mats protecting your car’s interior floors from dirt, spills, and wear.
+
+Lifestyle
+	1.	Tools (Spanners, Screws): Compact toolkit with spanners and screws, essential for quick fixes and repairs.
+	2.	Packing Bags (Family Kit): Durable, spacious packing bags keeping family travel essentials organized and secure.
+	3.	Compressible Bags: Space-saving storage bags designed for convenient packing and organizing in limited spaces.
+
+Outdoor
+	1.	Bike Holder: Secure, sturdy holder for safely transporting bikes during road trips or outdoor adventures.
+	2.	Tent: Weather-resistant, compact tent offering easy setup for enjoyable outdoor camping experiences.
+	3.	Roof Rack: Spacious roof rack providing additional storage for luggage or equipment during long trips.
+
+Safety
+	1.	First Aid Kit: Comprehensive emergency kit containing medical essentials for accidents or unexpected situations.
+	2.	Cables: Reliable jump-start cables ensuring your EV can power up during unexpected battery failures.
+	3.	Battery Extender: Portable battery extender offering additional charge for emergencies or longer drives.
+
+Tech
+	1.	Back Camera: High-definition camera delivering a clear rear view, improving parking safety and maneuvering.
+	2.	Phone Holder: Adjustable, sturdy phone mount ensuring safe and hands-free phone usage while driving.
+	3.	iPad Mount: Secure, versatile mount for hands-free tablet use, ideal for entertainment or navigation.
