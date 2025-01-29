@@ -10,7 +10,11 @@ _Electric Vehicle Accessories E-Commerce Platform_
 
 ### PROTOTYPE VIDEO
 
-[responsive_ui_demo](./outputs/videos/evolution.mp4)
+
+
+https://github.com/user-attachments/assets/43ddf032-5f35-41df-bcd9-200f3236f487
+
+
 
 <br><br>
 
